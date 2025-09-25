@@ -1,0 +1,10 @@
+/* Skills.css */
+.skill-bar {
+  width: 0%; /* Start collapsed */
+  transition: width 1.5s ease-out, background-color 0.3s ease;
+}
+
+.skill-bar-animate {
+  width: var(--skill-bar-width); /* Expands to the target percentage */
+  transition-delay: var(--skill-bar-delay);
+}
